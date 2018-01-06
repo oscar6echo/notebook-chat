@@ -27,3 +27,12 @@ jupyter nbextension enable notebook-chat/main --user
 ```
 
 _Note_: The `sys-prefix` install does not work as `notebook-chat` is not (does not need be) a Python package.
+
+## 3 - Snapshots
+
+![](img/toolbar.png)  
+*Toolbar*
+
+![](img/chatbox.png)  
+*Notebook*
+
