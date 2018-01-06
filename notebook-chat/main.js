@@ -118,7 +118,7 @@ define([
 			help_index: 'zz',
 			handler: toggle_webchat
 		};
-		var prefix = 'support_chat';
+		var prefix = 'webchat';
 		var action_name = 'toggle';
 
 		// define action
@@ -126,12 +126,10 @@ define([
 		// register action with toolbar
 		Jupyter.toolbar.add_buttons_group([full_action_name]);
 
+		window.full_action_name = full_action_name;
 
-		// define keyboard shortcut
-		var shortcuts = {};
-		// shortcuts['TBD'] = full_action_name;
-		// register keyboard shortcut with keyboard_manager
-		Jupyter.notebook.keyboard_manager.command_shortcuts.add_shortcuts(shortcuts);
+		// register shortcut with keyboard_manager
+		Jupyter.notebook.keyboard_manager.command_shortcuts.add_shortcut('u,u', full_action_name);
 	};
 
 

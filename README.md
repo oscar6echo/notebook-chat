@@ -30,12 +30,12 @@ _Note_: The `--sys-prefix` install does not work as `notebook-chat` is not (does
 
 ## 3 - Snapshots
 
-Click on the icon  
+Click on the icon to toggle the webchat.  
+Or double-press `U` to open it. Close it with the toolbar button.  
 
 ![](img/toolbar.png)  
-
-to toggle the webchat
+*Toolbar*
 
 ![](img/chatbox.png)  
-
+*Webchat*
 
