@@ -30,9 +30,12 @@ _Note_: The `sys-prefix` install does not work as `notebook-chat` is not (does n
 
 ## 3 - Snapshots
 
+Click on the icon  
+
 ![](img/toolbar.png)  
-*Toolbar*
+
+to toggle the webchat
 
 ![](img/chatbox.png)  
-*Notebook*
+
 
